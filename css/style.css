@@ -119,8 +119,7 @@ html{
 }
 
 .section-headling{
-  display: flex;
-  margin-bottom: 25px;
+  display: block;
   font-size: 40px;
   font-family: MullerLight;
   padding-left: 40px;
@@ -140,7 +139,6 @@ html{
   position: relative;
   min-height: 258px;
   margin-right: 23px;
-  outline: 3px solid red;
 }
 .section-offer-item:first-child{
   background-image: url(/img/Rectangle\ 14.jpg);
@@ -200,17 +198,58 @@ html{
   width: 888px;
   
 }
-
+.headling-services{
+  margin:0px;
+  margin-bottom: 20px;
+}
 .section-services-list{
   display: flex;
-  margin-top: 60px;
   flex-wrap: wrap;
 }
 .section-services-item{
+  padding-top: 191px;
   width: 573px;
   height: 330px;
+  margin-right: 24px;
+  outline: 3px solid black;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
-
+.section-services-item:nth-child(1){
+  background-image: url(/img/10.png);
+}
+.section-services-item:nth-child(2){
+  margin-right: 0px;
+  background-image: url(/img/15.png);
+}
+.section-services-item:nth-child(3){
+  margin-top: 24px;
+  background-image: url(/img/12.png);
+}
+.section-services-item:last-child{
+  margin-right: 0px;
+  margin-top: 24px;
+  background-image: url(/img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.png);
+}
+.section-services-item-heading{
+    color: #CC9933;
+  font-size: 20px;
+  font-family: MullerLight;
+  line-height: 40px;
+  font-weight: 500;
+}
+.section-services-item-icon{
+  background-image: url(/img/Rectangle\ 2.svg);
+}
+.section-services-item-description{
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  width: 402px;
+  margin: 0px;
+}
 .section-advantages-list{
   display: flex;
   margin-top: 60px;
