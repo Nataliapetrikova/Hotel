@@ -118,7 +118,9 @@ html{
   margin-top: 14px;
 }
 
-.section-headling{
+.section-heading{
+  margin-top: 0px;
+  margin-bottom: 20px;
   display: block;
   font-size: 40px;
   font-family: MullerLight;
@@ -163,13 +165,13 @@ html{
   padding-left: 45px;
   max-width: 420px;
 }
-.headling-second{
+.heading-second{
   padding-top: 0px;
   margin-top: 0px;
   text-align:justify-all;
   padding-left: 0px;
 }
-.headling-third{
+.heading-third{
   display: block;
   font-size: 60px;
   padding-top: 212px;
@@ -198,7 +200,7 @@ html{
   width: 888px;
   
 }
-.headling-services{
+.heading-services{
   margin:0px;
   margin-bottom: 20px;
 }
@@ -250,25 +252,99 @@ html{
   width: 402px;
   margin: 0px;
 }
+.section-heading{
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
 .section-advantages-list{
   display: flex;
-  margin-top: 60px;
+  margin-top: 0px;
   flex-wrap: wrap;
 }
 .section-advantages-item{
   width: 276px;
   height: 276px;
   border-radius: 15px;
+  padding-top: 40px;
+  padding-left: 45px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin-right: 22px;
+  margin-bottom: 22px;
+  font-weight: 400;
+  font-size: MullerRegular;
+  line-height: 32px;
+  text-align: left;
+}
+.section-advantages-item:nth-child(4),
+.section-advantages-item:last-child{
+  margin-right: 0px;
+}
+.section-advantages-item:nth-child(5),
+.section-advantages-item:nth-child(6),
+.section-advantages-item:nth-child(7),
+.section-advantages-item:last-child{
+  margin-bottom: 0px;
+}
+.section-advantages-item-icon{
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: contain;
+ }
+.icon-first{
+  background-image: url(/img/bathtub.svg);
+  width: 64px; 
+  height: 66px; 
+}
+.icon-second{
+  background-image: url(/img/hanger.svg);
+  width: 67px; 
+  height: 66px; 
+}
+.icon-third{
+  background-image: url(/img/heating.svg);
+  width: 64px; 
+  height: 66px;
+}
+.icon-fourth{
+  background-image: url(/img/hotel-key.svg);
+  width: 66px; 
+  height: 66px; 
+}
+.icon-fifth{
+  background-image: url(/img/parking.svg);
+  width: 66px; 
+  height: 66px;
+}
+.icon-sixth{
+  background-image: url(/img/reception.svg);
+  width: 64px; 
+  height: 66px;
+}
+.icon-seventh{
+  background-image: url(/img/security-box.svg);
+  width: 67px; 
+  height: 66px;
+}
+.icon-eighth{
+  background-image: url(/img/swimming-pool.svg);
+  width: 64px; 
+  height: 66px;
 }
 .section-replace-list{
   display: flex;
   margin-top: 60px;
   flex-wrap: wrap;
+  
 }
 .section-replace-item{
-  width: 374px;
+  display: flex;
+  flex-basis:31.2%;
   height: 440px;
   outline: 3px solid red;
+  
   
 
 }
@@ -283,3 +359,4 @@ html{
 .section-replace-item:nth-child(6){
   margin-right: 0px;
 }
+
