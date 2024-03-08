@@ -335,17 +335,117 @@ html{
 }
 .section-replace-list{
   display: flex;
-  margin-top: 60px;
   flex-wrap: wrap;
+  margin: 0px;
   
 }
 .section-replace-item{
-  display: flex;
-  flex-basis:31.2%;
+  margin: 0;
+  width: 374px;
+  flex-basis: 31.2%;
   height: 440px;
-  outline: 3px solid red;
-  
-  
+}
+.section-replace-item-img{
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  width: 374px;
+  height: 217px;
+  border-radius: 15px, 15px, 0px, 0px;
+}
+.img-first{
+  background-image: url(/img/23.png);
+}
+.img-second{
+  background-image: url(/img/24.png);
+}
+.img-third{
+  background-image: url(/img/26.png);
+}
+.img-fourth{
+  background-image: url(/img/29-1.png);
+}
+.img-fifth{
+  background-image: url(/img/30.png);
+}
+.img-sixth{
+  background-image: url(/img/31.png);
+}
+.img-seventh{
+  background-image: url(/img/27.png);
+}
+.img-eigth{
+  background-image: url(/img/29.png);
+}
+.img-ninth{
+  background-image: url(/img/41.png);
+  height: 440px;
+}
+.section-replace-item-price{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 1;
+  font-family: MullerRegular;
+  font-weight: 400;
+  color:  #999999;
+}
+.strong-price{
+  color: #000;
+  margin: 0 0 0 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.strong-night{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  margin:0 0 0 10px;
+   
+}
+.section-replace-item-star {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 0px;
+  height: 20px;
+}
+.section-replace-item-heading{
+  display: block;
+  font-size: 16px;
+  line-height: 1;
+  height: 20px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+.section-replace-item-description{
+  display: block;
+  font-size: 16px;
+  line-height: 1;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  color:#999999;
+  font-weight: 400;
+}
+.section-replace-item-btn{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1;
+  width: 100px;
+  height: 42px;
 
 }
 .section-replace-item:not(:nth-child(-n+3)){
@@ -359,4 +459,13 @@ html{
 .section-replace-item:nth-child(6){
   margin-right: 0px;
 }
-
+.description-ninth{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+  padding-left: 54px;
+  padding-top: 390px;
+}
