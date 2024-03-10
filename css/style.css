@@ -183,14 +183,22 @@ html{
   padding-left: 45px;
 }
 .section-offer-item-btn{
+  display: flex;
+  flex-direction: row;
   color:#F0BF5F;
   line-height: 16px;
   padding-left: 40px; 
 }
 .section-offer-item-btn-icon{
- padding-top: 10px;
- min-height: 16px;
- min-width: 16px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(/img/Rectangle\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-top: 0px;
+  width: 11px;
+  height: 11px;
+  transform: translateY(1.5px);
 }
 .section-description{
   font-size: 16px;
@@ -209,11 +217,14 @@ html{
   flex-wrap: wrap;
 }
 .section-services-item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content:flex-start ;
   padding-top: 191px;
   width: 573px;
   height: 330px;
   margin-right: 24px;
-  outline: 3px solid black;
   border-radius: 2px;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
@@ -236,21 +247,36 @@ html{
   background-image: url(/img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.png);
 }
 .section-services-item-heading{
-    color: #CC9933;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-left: 45px;
+  color: #CC9933;
   font-size: 20px;
-  font-family: MullerLight;
+  font-family: MullerRegular;
   line-height: 40px;
-  font-weight: 500;
+  font-weight: 800;
 }
 .section-services-item-icon{
+  margin-left: 5px;
+  margin-top: 15px;
   background-image: url(/img/Rectangle\ 2.svg);
+  background-size: contain;
+  width: 11px;
+  height: 11px;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
+
 .section-services-item-description{
+  display: block;
+  margin-top: 0px;
+  padding-left: 45px;
   font-size: 16px;
   line-height: 32px;
   font-weight: 400;
-  width: 402px;
+  font-family: MullerMedium;
   margin: 0px;
+  color: #000000;
 }
 .section-heading{
   margin-top: 70px;
@@ -344,6 +370,7 @@ html{
   width: 374px;
   flex-basis: 31.2%;
   height: 440px;
+  background-color: #FFFFFF;
 }
 .section-replace-item-img{
   display: inline-block;
