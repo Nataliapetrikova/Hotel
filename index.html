@@ -367,39 +367,58 @@
             Хочу тур
           </h2>         
           <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST" class="form">
-            <p>
-              <label for="">Город вылета</label>
-              <select name="country">
-                <option>Москва</option>
-                <option>Санкт-Петербург</option>
-                <option>Калининград</option>
-                <option>Уфа</option>
-                <option>Красноярск</option>
-                <option>Екатеринбург</option>
-                <option>Пермь</option>
-                <option>Новосибирск</option>
+            <div class="labels">
+              <label for="city">
+                <span class="form-label">Город вылета</span>
+              </label>
+              <select name="city" id="city" class="city arrow">
+                  <option>Москва</option>
+                  <option>Санкт-Петербург</option>
+                  <option>Калининград</option>
+                  <option>Уфа</option>
+                  <option>Красноярск</option>
+                  <option>Екатеринбург</option>
+                  <option>Пермь</option>
+                  <option>Новосибирск</option>
               </select>
+              </div>
+              <div class="labels">
+                <label for="country">
+                  <span class="form-label">Страна</span>
+                </label>
+                <select name="country" id="country" class="country arrow">
+                  <option>Канада</option>
+                  <option>Франция</option>
+                  <option>Германия</option>
+                  <option>Италия</option>
+                  <option>Япония</option>
+                  <option>Россия</option>
+                  <option>Великобритания</option>
+                  <option>США</option>
+                </select>
+              </div>
+              <div class="labels">
+                <label for="date">
+                  <span class="form-label">Дата прибытия</span>
+                </label>
+                <input type="date" name="date" placeholder="date" class="input" id="date">
+              </div>
+              <div class="labels">  
+                <label for="number">
+                  <span class="form-label">Ночей</span>
+                </label>
+                <input type="number" name="number" class="input border-bottom" id="number">
+              </div>
+              <div class="labels">
+                <label for="number1">
+                  <span class="form-label">Туристы</span>
+                </label>
+                <input type="number" name="number" class="input border-bottom" id="number1">
+              </div>
+              <button type="submit" class="btn btn-submit">
+                Найти
+              </button>
             </p>
-            <label for="">Страна</label>
-            <select name="country">
-              <option>Канада</option>
-              <option>Франция</option>
-              <option>Германия</option>
-              <option>Италия</option>
-              <option>Япония</option>
-              <option>Россия</option>
-              <option>Великобритания</option>
-              <option>США</option>
-            </select>
-            <label for="date">Дата прибытия</label>
-            <input type="date" name="date" placeholder="date" class="input">
-            <label for="number">Ночей</label>
-            <input type="number" name="number" placeholder="number" class="input">
-            <label for="number">Туристы</label>
-            <input type="number" name="number" placeholder="number" class="input">
-            <button type="submit" class="btn btn-submit">
-              Найти
-            </button>
           </form>
         </div>
       </section>
